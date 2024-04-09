@@ -1,0 +1,15 @@
+/Users/brendabertrand/Desktop/Rakete Mentoring/Projects/Hangman/Hangman/bin/Debug/net8.0/Hangman
+/Users/brendabertrand/Desktop/Rakete Mentoring/Projects/Hangman/Hangman/bin/Debug/net8.0/Hangman.deps.json
+/Users/brendabertrand/Desktop/Rakete Mentoring/Projects/Hangman/Hangman/bin/Debug/net8.0/Hangman.runtimeconfig.json
+/Users/brendabertrand/Desktop/Rakete Mentoring/Projects/Hangman/Hangman/bin/Debug/net8.0/Hangman.dll
+/Users/brendabertrand/Desktop/Rakete Mentoring/Projects/Hangman/Hangman/bin/Debug/net8.0/Hangman.pdb
+/Users/brendabertrand/Desktop/Rakete Mentoring/Projects/Hangman/Hangman/obj/Debug/net8.0/Hangman.GeneratedMSBuildEditorConfig.editorconfig
+/Users/brendabertrand/Desktop/Rakete Mentoring/Projects/Hangman/Hangman/obj/Debug/net8.0/Hangman.AssemblyInfoInputs.cache
+/Users/brendabertrand/Desktop/Rakete Mentoring/Projects/Hangman/Hangman/obj/Debug/net8.0/Hangman.AssemblyInfo.cs
+/Users/brendabertrand/Desktop/Rakete Mentoring/Projects/Hangman/Hangman/obj/Debug/net8.0/Hangman.csproj.CoreCompileInputs.cache
+/Users/brendabertrand/Desktop/Rakete Mentoring/Projects/Hangman/Hangman/obj/Debug/net8.0/Hangman.sourcelink.json
+/Users/brendabertrand/Desktop/Rakete Mentoring/Projects/Hangman/Hangman/obj/Debug/net8.0/Hangman.dll
+/Users/brendabertrand/Desktop/Rakete Mentoring/Projects/Hangman/Hangman/obj/Debug/net8.0/refint/Hangman.dll
+/Users/brendabertrand/Desktop/Rakete Mentoring/Projects/Hangman/Hangman/obj/Debug/net8.0/Hangman.pdb
+/Users/brendabertrand/Desktop/Rakete Mentoring/Projects/Hangman/Hangman/obj/Debug/net8.0/Hangman.genruntimeconfig.cache
+/Users/brendabertrand/Desktop/Rakete Mentoring/Projects/Hangman/Hangman/obj/Debug/net8.0/ref/Hangman.dll
