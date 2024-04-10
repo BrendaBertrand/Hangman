@@ -6,6 +6,7 @@ class Program
     private static readonly Random rng = new Random();
     private static readonly string MAGIC_WORD = WORDS_LIST[rng.Next(0, WORDS_LIST.Count)].ToUpper();
     private const int MAX_ERRORS = 5;
+    private const char HIDDEN_LETTER = '_';
 
     static void Main(string[] args)
     {
@@ -17,7 +18,7 @@ class Program
         List<char> displayedWord = new List<char>();
         for (int i = 0; i < MAGIC_WORD.Length; i++)
         {
-            displayedWord.Add('_');
+            displayedWord.Add(HIDDEN_LETTER);
         }
 
         List<char> wrongLetters = new List<char>();
@@ -30,12 +31,12 @@ class Program
                 wrongLetters.ForEach(letter => Console.Write($"{letter} "));
             }
 
-            if (!displayedWord.Contains('_'))
+            if (!displayedWord.Contains(HIDDEN_LETTER))
             {
                 Console.WriteLine("\n\nCongratulations! You won!\n");
                 break;
             }
-
+            
             if (wrongLetters.Count >= MAX_ERRORS)
             {
                 Console.WriteLine("\n\nGAME OVER");
@@ -46,6 +47,13 @@ class Program
 
             Console.Write("\n\nNext letter : ");
             char userTry = Char.ToUpper(Console.ReadKey().KeyChar);
+
+            if (!Char.IsAsciiLetter(userTry))
+            {
+                Console.Clear();
+                Console.WriteLine($"\"{userTry}\" is not allowed. Please enter a letter");
+                continue;
+            }
 
 
             if (wrongLetters.Contains(userTry) || displayedWord.Contains(userTry))
